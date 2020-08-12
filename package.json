@@ -1,0 +1,40 @@
+{
+  "name": "project34-api",
+  "version": "1.0.0",
+  "description": "Project34-API",
+  "main": "index.js",
+  "engines": {
+    "node": "12.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bin/www",
+    "start": "node bin/www"
+  },
+  "author": "Special Man Global Solution LTD",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.13",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^6.6.0",
+    "http-errors": "^1.7.3",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.19",
+    "mongoose-double": "0.0.1",
+    "morgan": "^1.10.0",
+    "node-mailjet": "^3.3.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "pug": "^3.0.0"
+  }
+}
